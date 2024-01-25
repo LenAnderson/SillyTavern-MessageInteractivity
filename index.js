@@ -120,44 +120,44 @@ registerSlashCommand(
         const message = `
             <ul style='text-align:left;'>
                 <li>
-                    <code>{{input::<q>varName</q>::<q>message</q>::<q>defaultValue</q>}}</code>
+                    <code>&lcub;&lcub;input::<q>varName</q>::<q>message</q>::<q>defaultValue</q>&rcub;&rcub;</code>
                     <p>
                         Request user input and replace with result. Result will be saved with the given varName.<br>
                         Optional: message, defaultValue
                     </p>
                 </li>
                 <li>
-                    <code>{{prompt::<q>varName</q>::<q>message</q>::<q>defaultValue</q>}}</code>
+                    <code>&lcub;&lcub;prompt::<q>varName</q>::<q>message</q>::<q>defaultValue</q>&rcub;&rcub;</code>
                     <p>
-                        Alias for {{input::...}}<br>
+                        Alias for &lcub;&lcub;input::...&rcub;&rcub;<br>
                         Optional: message, defaultValue
                     </p>
                 </li>
                 <li>
-                    <code>{{confirm::<q>varName</q>::<q>message</q>}}</code>
+                    <code>&lcub;&lcub;confirm::<q>varName</q>::<q>message</q>&rcub;&rcub;</code>
                     <p>
                         Request user confirm (yes/no). Result will be saved with the given varName.<br>
                         Optional: message
                     </p>
                 </li>
                 <li>
-                    <code>{{alert::<q>message</q>}}</code>
+                    <code>&lcub;&lcub;alert::<q>message</q>&rcub;&rcub;</code>
                     <p>
                         Display a message popup / modal to the user.
                     </p>
                 </li>
                 <li>
-                    <code>{{mesvar::<q>varName</q>}}</code>
+                    <code>&lcub;&lcub;mesvar::<q>varName</q>&rcub;&rcub;</code>
                     <p>
-                        Replaced with the variable value from an earlier {{input::...}} or {{confirm::...}}.
+                        Replaced with the variable value from an earlier &lcub;&lcub;input::...&rcub;&rcub; or &lcub;&lcub;confirm::...&rcub;&rcub;.
                     </p>
                 </li>
                 <li>
-                    <code>{{button::<q>label</q>::<q>slashCommandOrQuickReplySetName</q>::<q>quickReplyLabel</q>}}</code>
+                    <code>&lcub;&lcub;button::<q>label</q>::<q>slashCommandOrQuickReplySetName</q>::<q>quickReplyLabel</q>&rcub;&rcub;</code>
                     <p>
                         Replaced with the button that executes the provided slash command or Quick Reply on click.<br>
                         If a QR set name and QR label are provided, the executed QR will have all the variables from
-                        earlier {{input::...}} and {{confirm::...}} available via {{arg::varName}}.<br>
+                        earlier &lcub;&lcub;input::...&rcub;&rcub; and &lcub;&lcub;confirm::...&rcub;&rcub; available via &lcub;&lcub;arg::varName&rcub;&rcub;.<br>
                         Optional: slashCommandOrQuickReplySetName, quickReplyLabel
                     </p>
                 </li>
