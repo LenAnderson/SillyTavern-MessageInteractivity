@@ -33,7 +33,7 @@ https://github.com/LenAnderson/SillyTavern-MessageInteractivity/
 	<li>
 		<code>{{confirm::<q>varName</q>::<q>message</q>}}</code>
 		<p>
-			Request user confirm (yes/no). Result will be saved with the given varName.
+			Request user confirm (yes/no). Result will be saved with the given varName.<br>
 			Optional: message
 		</p>
 	</li>
