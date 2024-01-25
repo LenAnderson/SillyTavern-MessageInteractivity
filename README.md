@@ -15,6 +15,8 @@ https://github.com/LenAnderson/SillyTavern-MessageInteractivity/
 
 ## Usage
 
+Use `/messageinteractivity?` to view the below information in SillyTavern.
+
 <ul style='text-align:left;'>
 	<li>
 		<code>{{input::<q>varName</q>::<q>message</q>::<q>defaultValue</q>}}</code>
